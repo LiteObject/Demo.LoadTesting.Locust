@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  demo.loadtesting.locust:
+    image: ${DOCKER_REGISTRY-}demoloadtestinglocust
+    build:
+      context: .
+      dockerfile: Demo.LoadTesting.Locust/Dockerfile
