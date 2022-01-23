@@ -12,4 +12,4 @@ $ pip install locust
 - Update gitignore: `$ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore`
 
 ## How to add Kubernetes orchestrator:
-- [Build ASP.NET Core applications deployed as Linux containers into an AKS/Kubernetes orchestrator] (https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/build-aspnet-core-applications-linux-containers-aks-kubernetes)
+- [Build & deployed into k8s] (https://docs.microsoft.com/en-us/dotnet/architecture/containerized-lifecycle/design-develop-containerized-apps/build-aspnet-core-applications-linux-containers-aks-kubernetes)
