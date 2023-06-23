@@ -70,7 +70,8 @@ That's it! You now have a basic understanding of how to use Locust for load test
 ---
 
 ## More on Locust:
-- http://docs.locust.io/en/stable/quickstart.html
+- [Locust QuickStart](http://docs.locust.io/en/stable/quickstart.html)
+- [Writing a locustfile](https://docs.locust.io/en/stable/writing-a-locustfile.html)
 
 ## How to add .gitignore to a local repo from command line:
 - Go to the repo and initialize: `$ git init`

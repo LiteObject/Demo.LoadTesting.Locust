@@ -1,16 +1,19 @@
-import time
+"""Module docstring"""
 from locust import HttpUser, task, between
 
-# http://docs.locust.io/en/stable/quickstart.html
+
 class WebsiteUser(HttpUser):
-	wait_time = between(1, 5)
+    """Class representing a websiteuser"""
+    wait_time = between(1, 5)
 
-	@task
-	def fast_endpoint(self):
-		self.client.verify = False
-		self.client.get(url="/")
+    @task
+    def values_endpoint(self):
+        """Function printing python version."""
+        self.client.verify = False
+        self.client.get(url="/api/values")
 
-	@task
-	def	slow_endpoint(self):
-		self.client.verify = False
-		self.client.get(url="/slow")
+    @task
+    def values_slow_endpoint(self):
+        """Function printing python version."""
+        self.client.verify = False
+        self.client.get(url="/api/values/slow")
